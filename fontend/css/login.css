@@ -25,7 +25,14 @@ body{
 a{
 
     text-decoration: none;
-    color: #5493df;
+    color: hsl(0, 0%, 20%);
+
+}
+
+a:hover{
+
+    /* color: #4275b2; */
+    color: hsl(0, 0%, 5%);
 
 }
 
@@ -33,12 +40,6 @@ h1{
 
     width: 10em;
     text-align: center;
-
-}
-
-a:hover{
-
-    color: #4275b2;
 
 }
 
@@ -186,7 +187,7 @@ a:hover{
     font-size: 1.25em;
     cursor: pointer;
 
-    background-color: #60a8ff;
+    background-color: hsl(45, 100%, 58%);
     color: #212121;
 
     transition: 200ms;
@@ -205,8 +206,8 @@ a:hover{
 
     cursor: default;
 
-    background-color: #b5d4f9;
-    color: #535353;
+    background-color: hsl(45, 40%, 58%);
+    color: hsl(0, 0%, 20%);
 
 }
 
